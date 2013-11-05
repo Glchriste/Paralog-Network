@@ -1,0 +1,397 @@
+#NEXUS
+[written Thu Jan 17 21:31:02 EST 2013 by Mesquite  version 2.75 (build 564) at Gregs-MacBook-Pro.local/192.168.2.2]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=32;
+	TAXLABELS
+		bj11_aa12080 bj12_aa18031 XP_003726818 bj1_aa1846 bj1_aa1847 bj1_aa1848 bj1_aa1849 bj13_aa14172 bj14_aa1473 bj14_aa1475 bj23_aa5197 bj23_aa5198 bj23_aa5199 bj23_aa5201 bj22_aa13147 bj22_aa13148 bj22_aa13146 bj19_aa13995 bj19_aa13996 bj2_aa20774 bj2_aa20776 bj2_aa20775 bj7_aa23103 bj10_aa3084 bj10_aa3085 bj21_aa33006 bj4_aa2505 bj4_aa2506 bj4_aa2508 bj4_aa2504 bj9_aa7465 XM_002741431 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=724;
+	FORMAT DATATYPE = Protein GAP = - MISSING = ?;
+	MATRIX
+	bj11_aa12080  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NAITVVYLRAVGGEVG--ATSSLAPKIGPLGLSPKKVGDDIAKGTQDWKGLKITVKLTIQNRQAKVS------VVPSASSLIIKALKEPPRDRKKVKNVQHSGNITMDDIISIARQMRERSMARTLEGTVKEVLG----TAQSVGCTIDKEHPHDIIEKINDG-EIEVPEE----
+	bj12_aa18031  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MVSSFHPCLVFIHLIGMPILILSLSQSPKKVGDDIAKGTQDWKGYERSFFSQIVTKFCSYVLYSHVFALYLRAVGGEVG--ATSALAPKIGPLGLSPKKVGDDIAKGTQDWKGLKITVKLTIQNRQATVS------VVPSASSLIIKALKEAPRDRKKVKNVQHNGNLTMDDIINIARQMKERSMARELCGTVKEILG----TAQSVGCTVDKEHPHDIINIARQMKERSMARE----
+	XP_003726818  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MCRRPELEDR-MSPKKVGDDIAKATQEWKGLKITVMLTIQNRQAKVS------VVPSASSLIIRALKEPPRDRKKVKNISHSGNIGLDVIIEIAKTMRERSMARELKGTVKEVLG----TAQSVGCTVDGSNPHDIIEQINDG-AIEIPAE----
+	bj1_aa1846    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVT------VVPSASSLIIKALKEPPRDRKKVKNIQHSGNISLDQIIEIARTMSERSMAKELSGTVKEILG----TAQSVGCTVEGQAPHDVIEGINSG-EVDIPEK----
+	bj1_aa1847    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVT------VVPSASSLIIKALKEPPRDRKKVKNIQHSGNISLDQIIEIARTMSERSMAKELSGTVKEILG----TAQSVGCTVEGQAPHDVIEGINSG-EVDIPEK----
+	bj1_aa1848    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVT------VVPSASSLIIKALKEPPRDRKKVKNIQHSGNISLDQIIEIARTMSERSMAKELSGTVKEILG----TAQSVGCTVEGQAPHDVIEGINSG-EVDIPEK----
+	bj1_aa1849    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVT------VVPSASSLIIKALKEPPRDRKKVKNIQHSGNISLDQIIEIARTMSERSMAKELSGTVKEILG----TAQSVGCTVEGQAPHDVIEGINSG-EVDIPEK----
+	bj13_aa14172  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------VG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVS------VVPSASSLIIKALKEPPRDRKKVKNIQHSGNITLEQVIDIARTMRERSMARELSGTVKEILG----TAQSVGCTVEGQAPHDVIEGIDSG-EVDIPEK----
+	bj14_aa1473   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQAKVS------VVPSASSLIIKALKEAPRDRKKVKNIRHSGNVGLDQIIEIARTMRERSMAKELSGTVKEILG----TAQSVGCTVEGQPPHDVIDGINSG-EVDIPDN----
+	bj14_aa1475   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQAKVS------VVPSASSLIIKALKEAPRDRKKVKNIRHSGNVGLDQIIEIARTMRERSMAKELSGTVKEILG----TAQSVGCTVEGQPPHDVIDGINSG-EVDIPDN----
+	bj23_aa5197   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVS------VVPSASSLIIKALKEAPRDRKKVKNIQHSGNVTLEQIIEIARTMRERSMAKELSGTVKEILG----TSQSVGCTVDGQAPHDIIDSINDG-EIEIPEK----
+	bj23_aa5198   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVS------VVPSASSLIIKALKEAPRDRKKVKNIQHSGNVTLEQIIEIARTMRERSMAKELSGTVKEILG----TSQSVGCTVDGQAPHDIIDSINDG-EIEIPEK----
+	bj23_aa5199   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVS------VVPSASSLIIKALKEAPRDRKKVKNIQHSGNVTLEQIIEIARTMRERSMAKELSGTVKEILG----TSQSVGCTVDGQAPHDIIDSINDG-EIEIPEK----
+	bj23_aa5201   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSTLAPKIGPLGLSPKKVGDDIAKATQDWKGLKITVKLTIQNRQAKVS------VVPSASSLIIKALKEAPRDRKKVKNIQHSGNVTLEQIIEIARTMRERSMAKELSGTVKEILG----TSQSVGCTVDGQAPHDIIDSINDG-EIEIPEK----
+	bj22_aa13147  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKIDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSMVIKALKEPPRDRKKVKNIKHNGNIAFDDVINIARTMRARSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKINDE-EIEVPEE----
+	bj22_aa13148  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKIDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSMVIKALKEPPRDRKKVKNIKHNGNIAFDDVINIARTMRARSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKINDE-EIEVPEE----
+	bj22_aa13146  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKIDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSMVIKALKEPPRDRKKVKNIKHNGNIAFDDVINIARTMRARSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKINDE-EIEVPEE----
+	bj19_aa13995  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKIDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSMVIKALKEPPRDRKKVKNIKHNGNIAFDDVINIARTMRARSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKIDDE-EIEVPEE----
+	bj19_aa13996  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKIDP--------------------------------------------------------NEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSMVIKALKEPPRDRKKVKNIKHNGNIAFDDVINIARTMRARSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKIDDE-EIEVPEE----
+	bj2_aa20774   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGEDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSLVIKALKEPPRDRKKVKNIKHNGNITLDDVIKIARIMRERSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKIDSE-ELEIPEE----
+	bj2_aa20776   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MERSRRMPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGEDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSLVIKALKEPPRDRKKVKNIKHNGNITLDDVIKIARIMRERSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKIDSE-ELEIPEE----
+	bj2_aa20775   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGEDIAKATQDWKGLKITVQLTIQNRQATVS------VVPSASSLVIKALKEPPRDRKKVKNIKHNGNITLDDVIKIARIMRERSMAREFSGTVKEILG----TAQSVGCTVDGMHPHDVIEKIDSE-ELEIPEE----
+	bj7_aa23103   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKIDP--------------------------------------------------------TEIKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQATVA------VVPSASSMIIKALKEPPRDRKKVKHIKHSGNLSLDDIVQIARVMRERSMAREFSGTVKEILG----TAQSVGCTVEDLHPHDVIMKINDG-EIEVPEE----
+	bj10_aa3084   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKVVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQAKVS------VVPSASSLVIKALKEPPRDRKKVKNIKHDGNVSFDEILKIARTMRERSMAREFVGTVKEILG----TAQSVGCTVDGMHPHDVIDKINAE-EIEVPEE----
+	bj10_aa3085   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKVVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQDWKGLKITVQLTIQNRQAKVS------VVPSASSLVIKALKEPPRDRKKVKNIKHDGNVSFDEILKIARTMRERSMAREFVGTVKEILG----TAQSVGCTVDGMHPHDVIDKINAE-EIEVPEE----
+	bj21_aa33006  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEIKILCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQEWKGLKITVMLTIQNRQAKVS------VVPSASSMVIKALKEPPRDRKKVKNIKHDGNIAFEEIVKIARIMRERSMAREFVGTVKEILG----TAQSVGCTVDGMNPHDVIEKINAE-EIEVPEE----
+	bj4_aa2505    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEVKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQEWKGLKITVQLRIQNRQATVS------VVPSASSLIIKALKESPRDRKKVKNIRHNGNVNFEEIIKIARTMRERSMARYLSGTVKEILG----TAQSVGCTVDGMNPHDVIEKINDG-ELEVPEE----
+	bj4_aa2506    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SPSIPVSPSRCRLQLSLETVQEGQLWGQEMMLLPLHHQLLSSTMPPKFDP--------------------------------------------------------NEVKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQEWKGLKITVQLRIQNRQATVS------VVPSASSLIIKALKESPRDRKKVKNIRHNGNVNFEEIIKIARTMRERSMARYLSGTVKEILG----TAQSVGCTVDGMNPHDVIEKINDG-ELEVPEE----
+	bj4_aa2508    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPPKFDP--------------------------------------------------------NEVKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQEWKGLKITVQLRIQNRQATVS------VVPSASSLIIKALKESPRDRKKVKNIRHNGNVNFEEIIKIARTMRERSMARYLSGTVKEILG----TAQSVGCTVDGMNPHDVIEKINDG-ELEVPEE----
+	bj4_aa2504    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KPFHSCVAFAMSSPTFFGLQTSSTMPPKFDP--------------------------------------------------------NEVKIVCLRAVGGEVG--ATSSLAPKVGPLGLSPKKVGDDIAKATQEWKGLKITVQLRIQNRQATVS------VVPSASSLIIKALKESPRDRKKVKNIRHNGNVNFEEIIKIARTMRERSMARYLSGTVKEILG----TAQSVGCTVDGMNPHDVIEKINDG-ELEVPEE----
+	bj9_aa7465    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SLAPKIGPLGLSPKKVGDDIAKATGDWKGLRITVKLTIQNRQAAIE------VVPSASALIIKALKEPPRDRKKVKNIKHSGSVAFDEIVNIARVMRHRSIARELSGTIKEILG----TAQSVGCTIDGRLPHDVIDDINSG-AVECPTE----
+	XM_002741431  TTCCTTCACGTATTTCGGAATACGGTGCAACTCTTTGGTCGTGTCCAGAATCGGGCTCATCCAACACCCAATACCGAATTTATCGACTGTTAAGTCAGCTACAAAGAAACAATAATGCCGCCCAAGTTCGATCCAACCGCTATTACTGAGGTTTTCTTGAGGGTTACTGGTGGTGAAGTTGGCGCTACCTCTTCTTTAGCACCCAAAATCGGTCCTCTTGGTCTGTCTCCCAAGAAGGTTGGGGATGACATCTGCAAAGCTACTGGAGACTGGAAAGGTTTGAGGATCACGGTGAAGCTAATTATCCAGAACAGACAGGCAAAGGTTGAAGTAGTTCCCAGCGCATCATCATTGGTCATCAAGGCACTTAAAGAACCACCACGTGACAGAAAGAAGCAGAAAAATATCATTCACAGTGGCAATGTCAGTCTTGAACAAGTTATTGAAATTGCACGGATCATGAGACCCCGTTCTATGGCACGCCAGCTATCAGGCACTGTCAAGGAAATCCTTGGCACTGCACAGTCAGTTGGATGTACTGTTGAAGGCAAACACCCACATGATGTAATTGAAGGCATTGATGAGGGAGATTATGAAATCCCTGAAGAATAAATATGCTGACAAAGAAACATCGCAAATAAAAAGAAAAAAATTGTGAAAGTGTTTGATATATATTTTTTTCAAGGCTTGTGAGCTTTGACCACATACCCTGCATTACATGCAG
+
+;
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  Taxonomy;
+	DIMENSIONS  NCHAR=1;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6";
+	CHARSTATELABELS 
+		1  /  Holothuroidea Asteroidea Echinoidea Ophiuroidea Crinoidea Cephalochordate Hemichordate ; 
+	MATRIX
+	bj11_aa12080  0
+	bj12_aa18031  0
+	XP_003726818  2
+	bj1_aa1846    4
+	bj1_aa1847    4
+	bj1_aa1848    4
+	bj1_aa1849    4
+	bj13_aa14172  4
+	bj14_aa1473   4
+	bj14_aa1475   4
+	bj23_aa5197   4
+	bj23_aa5198   4
+	bj23_aa5199   4
+	bj23_aa5201   4
+	bj22_aa13147  1
+	bj22_aa13148  1
+	bj22_aa13146  1
+	bj19_aa13995  1
+	bj19_aa13996  1
+	bj2_aa20774   1
+	bj2_aa20776   1
+	bj2_aa20775   1
+	bj7_aa23103   1
+	bj10_aa3084   1
+	bj10_aa3085   1
+	bj21_aa33006  1
+	bj4_aa2505    2
+	bj4_aa2506    2
+	bj4_aa2508    2
+	bj4_aa2504    2
+	bj9_aa7465    2
+	XM_002741431  6
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = Character_Matrix)  =  unord:  1 -  724;
+TYPESET * UNTITLED  (CHARACTERS = Taxonomy)  =  unord:  1;
+
+END;
+
+BEGIN TREES;
+	Title Imported_trees;
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 bj11_aa12080,
+		2 bj12_aa18031,
+		3 XP_003726818,
+		4 bj1_aa1846,
+		5 bj1_aa1847,
+		6 bj1_aa1848,
+		7 bj1_aa1849,
+		8 bj13_aa14172,
+		9 bj14_aa1473,
+		10 bj14_aa1475,
+		11 bj23_aa5197,
+		12 bj23_aa5198,
+		13 bj23_aa5199,
+		14 bj23_aa5201,
+		15 bj22_aa13147,
+		16 bj22_aa13148,
+		17 bj22_aa13146,
+		18 bj19_aa13995,
+		19 bj19_aa13996,
+		20 bj2_aa20774,
+		21 bj2_aa20776,
+		22 bj2_aa20775,
+		23 bj7_aa23103,
+		24 bj10_aa3084,
+		25 bj10_aa3085,
+		26 bj21_aa33006,
+		27 bj4_aa2505,
+		28 bj4_aa2506,
+		29 bj4_aa2508,
+		30 bj4_aa2504,
+		31 bj9_aa7465,
+		32 XM_002741431;
+	TREE Imported_tree_0 = (2:0.32393916661058547,(((((12:1.04733278176111E-6,(11:1.04733278176111E-6,14:1.04733278176111E-6):1.04733278176111E-6):1.04733278176111E-6,13:1.04733278176111E-6):0.0484837181696569,(8:0.043751927959240766,((10:1.04733278176111E-6,9:1.04733278176111E-6):0.07567174713259975,((4:1.04733278176111E-6,(6:1.04733278176111E-6,7:1.04733278176111E-6):1.04733278176111E-6):1.04733278176111E-6,5:1.04733278176111E-6):0.019644286157641522):0.003909290851524251):0.04287676619356398):0.06270836742906742,3:0.2971755851631332):1.04733278176111E-6,((31:1.04733278176111E-6,32:36.17357467246721):0.3076180233879188,((30:1.04733278176111E-6,(27:1.04733278176111E-6,(28:0.14226549301357544,29:1.04733278176111E-6):1.04733278176111E-6):1.04733278176111E-6):0.10330193847311571,(23:0.12127427841791383,((26:0.05811627943139833,(25:1.04733278176111E-6,24:1.04733278176111E-6):0.03784031785898729):0.04251169459583862,(((20:1.04733278176111E-6,21:1.04733278176111E-6):1.04733278176111E-6,22:1.04733278176111E-6):0.08441859742276779,((15:1.04733278176111E-6,(17:1.04733278176111E-6,16:1.04733278176111E-6):1.04733278176111E-6):1.04733278176111E-6,(19:1.04733278176111E-6,18:1.04733278176111E-6):0.006921745617848452):0.027882735883174223):0.010818959273790976):0.020443995988597478):0.018200018246718054):0.03377973701670169):0.041005654944305116):0.10393378165683076,1:0.035981189986682434):0.0;
+
+END;
+
+
+BEGIN CODONS;
+	CODESET * UNTITLED  (CHARACTERS = Character_Matrix)  =  universal:  1 -  724;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = Character_Matrix)  =  'Mk1 (est.)':  1 -  724;
+ProbModelSet * UNTITLED  (CHARACTERS = Taxonomy)  =  'Mk1 (est.)':  1;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1358476262478;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 7925239474500141393;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 1461451592091902514;
+			mqVersion 275;
+			checksumv 0 3 3285793522 null  getNumChars 724 numChars 724 getNumTaxa 32 numTaxa 32   short false   bits 1048575   states 1048575   sumSquaresStatesOnly 1.5542611301212E13 sumSquares 1.5542611301212E13 longCompressibleToShort false usingShortMatrix false   NumFiles 1 NumMatrices 2;
+			mqVersion;
+			setID 1 4724182647096498269;
+			mqVersion 275;
+			checksumv 1 3 25447560 null  getNumChars 1 numChars 1 getNumTaxa 32 numTaxa 32   short true   bits 87   states 87   sumSquaresStatesOnly 7058.0 sumSquares 7058.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 2;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 960 935;
+			setLocation 0 22;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #1461451592091902514 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 860 868;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #4724182647096498269 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 860 868;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 860 868;
+						setLocation 0 22;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

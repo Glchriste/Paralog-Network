@@ -1,0 +1,189 @@
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1024 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1025 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1026 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1027 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1028 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1029 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1030 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa1023 and bj11_aa1031 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa11797 and bj11_aa11798 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14128 and bj20_aa14130 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14128 and bj20_aa14131 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14128 and bj20_aa14135 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14129 and bj20_aa14133 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14129 and bj20_aa14136 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj10_aa24013 and bj10_aa24016 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj10_aa24013 and bj10_aa24018 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj10_aa24013 and bj10_aa24019 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj10_aa24014 and bj10_aa24015 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj10_aa24014 and bj10_aa24020 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj21_aa21248 and bj21_aa21253 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj21_aa21248 and bj21_aa21254 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj21_aa21248 and bj21_aa21259 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj21_aa21248 and bj21_aa21263 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj13_aa48932 and bj13_aa48933 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj13_aa48932 and bj13_aa48934 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2086 and bj14_aa2087 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2086 and bj14_aa2088 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2086 and bj14_aa2089 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2086 and bj14_aa2090 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2086 and bj14_aa2091 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2086 and bj14_aa2092 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj2_aa2515 and bj2_aa2518 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj7_aa31722 and bj7_aa31725 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj7_aa31722 and bj7_aa31718 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj7_aa31722 and bj7_aa31716 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj7_aa31722 and bj7_aa31711 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj7_aa31722 and bj7_aa31709 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj7_aa31722 and bj7_aa31708 are exactly identical
+
+IMPORTANT WARNING
+Found 38 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /Users/greglinchangco/Janies Lab/New/Working/XP_791037.1/15-ORTHOMCL194.faa.blastp.xml-XP_791037.1.tabbed.phy.reduced
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 95 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.21%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 95
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Fixed Base Frequencies:
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s /Users/greglinchangco/Janies Lab/New/Working/XP_791037.1/15-ORTHOMCL194.faa.blastp.xml-XP_791037.1.tabbed.phy -n 15-ORTHOMCL194.faa.blastp.xml-XP_791037.1.raxml -c 4 -f d -m PROTGAMMAJTT 
+
+
+Testing which likelihood implementation to use
+Standard Implementation full tree traversal time: 0.204387
+Subtree Equality Vectors for gap columns full tree traversal time: 0.197604
+... using standard implementation
+
+Inference[0]: Time 116.242188 GAMMA-based likelihood -1672.060641, best rearrangement setting 5
+alpha[0]: 0.172233 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1672.060641 tree written to file /Users/greglinchangco/Janies Lab/New/Working/XP_791037.1/RAxML_result.15-ORTHOMCL194.faa.blastp.xml-XP_791037.1.raxml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1672.060641 .... 
+
+Final GAMMA-based Score of best tree -1672.060629
+
+Program execution info written to /Users/greglinchangco/Janies Lab/New/Working/XP_791037.1/RAxML_info.15-ORTHOMCL194.faa.blastp.xml-XP_791037.1.raxml
+Best-scoring ML tree written to: /Users/greglinchangco/Janies Lab/New/Working/XP_791037.1/RAxML_bestTree.15-ORTHOMCL194.faa.blastp.xml-XP_791037.1.raxml
+
+Overall execution time: 203.477185 secs or 0.056521 hours or 0.002355 days
+

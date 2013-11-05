@@ -1,0 +1,108 @@
+
+
+IMPORTANT WARNING: Sequences bj22_aa13257 and bj22_aa13259 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj22_aa13257 and bj22_aa13256 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj22_aa13257 and bj19_aa13404 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa10397 and bj20_aa10399 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa10397 and bj20_aa10403 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj8_aa3903 and bj8_aa3904 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj23_aa6932 and bj23_aa6934 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj23_aa6932 and bj23_aa6935 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj23_aa6932 and bj23_aa6936 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj9_aa503 and bj9_aa504 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj9_aa503 and XP_782034.1 are exactly identical
+
+IMPORTANT WARNING
+Found 11 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /Users/greglinchangco/Janies Lab/New/XP_782034.1/clustalw2output/15-ORTHOMCL1961.faa.blastp.xml-XP_782034.1.tabbed.phy.reduced
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 109 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 30.64%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 109
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Fixed Base Frequencies:
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s /Users/greglinchangco/Janies Lab/New/XP_782034.1/clustalw2output/15-ORTHOMCL1961.faa.blastp.xml-XP_782034.1.tabbed.phy -n 15-ORTHOMCL1961.faa.blastp.xml-XP_782034.1.tabbed.raxml.singleTree -c 4 -f d -m PROTGAMMAJTT 
+
+
+Testing which likelihood implementation to use
+Standard Implementation full tree traversal time: 0.099119
+Subtree Equality Vectors for gap columns full tree traversal time: 0.075868
+... using SEV-based implementation
+
+Inference[0]: Time 48.905407 GAMMA-based likelihood -1348.050911, best rearrangement setting 5
+alpha[0]: 0.291010 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1348.050889 tree written to file /Users/greglinchangco/Janies Lab/New/XP_782034.1/RAxML/RAxML_result.15-ORTHOMCL1961.faa.blastp.xml-XP_782034.1.tabbed.raxml.singleTree
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1348.050889 .... 
+
+Final GAMMA-based Score of best tree -1348.050851
+
+Program execution info written to /Users/greglinchangco/Janies Lab/New/XP_782034.1/RAxML/RAxML_info.15-ORTHOMCL1961.faa.blastp.xml-XP_782034.1.tabbed.raxml.singleTree
+Best-scoring ML tree written to: /Users/greglinchangco/Janies Lab/New/XP_782034.1/RAxML/RAxML_bestTree.15-ORTHOMCL1961.faa.blastp.xml-XP_782034.1.tabbed.raxml.singleTree
+
+Overall execution time: 66.137648 secs or 0.018372 hours or 0.000765 days
+

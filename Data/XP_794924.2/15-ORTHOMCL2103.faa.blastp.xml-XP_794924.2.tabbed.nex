@@ -1,0 +1,528 @@
+#NEXUS
+[written Wed Jan 23 12:14:50 EST 2013 by Mesquite  version 2.75 (build 564) at Gregs-MacBook-Pro.local/10.39.215.22]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=27;
+	TAXLABELS
+		bj13_aa17985 bj13_aa17986 bj14_aa4636 bj1_aa1553 bj23_aa1934 bj5_aa2287 bj5_aa2288 bj5_aa2286 bj10_aa22517 bj21_aa8462 bj22_aa917 bj2_aa19431 bj2_aa19435 bj2_aa19437 bj4_aa11512 bj4_aa11513 bj20_aa1457 bj7_aa28140 XP_794924.2 XP_002734364.1 bj8_aa1169 bj8_aa1170 bj8_aa1171 bj11_aa12629 bj11_aa7501 bj12_aa9534 bj12_aa9538 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=220;
+	FORMAT DATATYPE = Protein GAP = - MISSING = ?;
+	MATRIX
+	bj13_aa17985    ----------------------------------------------------------NFS-GITRA-MALVIPEKFQHILRVLNTNIDGKRKIMFAMTAIKGIGRRYANLCCKKADVDLSKRAGELTDEEVEKLVTIMMNPRQYKIPDWFLNRQRDIKDGKFSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj13_aa17986    ----------------------------------------------------------NFS-GITRA-MALVIPEKFQHILRVLNTNIDGKRKIMFAMTAIKGIGRRYANLCCKKADVDLSKRAGELTDEEVEKLVTIMMNPRQYKIPDWFLNRQRDIKDGKFSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj14_aa4636     ----------------------------------------------------------------------------------------------MFAMTAIKGIGRRYANLCCKKADVDLSKRAGELTEEEVDKLVTIMMNPRQYKIPDWFLNRQRDVKDGKFSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj1_aa1553      --------------------------------------------------------------------MSLVIPEKFQHILRVLNTNIDGKRKIMFAMTAIKGIGRRYANLCCKKADVDLSKRAGELTDEEVDKLVTIMMNPRQYKIPDWFLNRQRDVKDGKFSQVLANGLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj23_aa1934     --------------------------------------------------TQFAFWDVVFSCGLSRSNMSLVIPEKFQHILRVLNTNIDGRRKIMFAMTAIKGIGRRYANLCCKKADVDISKRAGELTEEEVEKVVTIMQNPRQYKIPDWFLNRQRDIKDGKFSQVLANGLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj5_aa2287      ----------------------------------------------------------------------------------------------MFALTAIKGVGRRYANICCRKADIDLKKRAGELTEEEVEKVVTILGNPRQYKIPDWFLNRQKDIKDGKYGQVMANSLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj5_aa2288      ----------------------------------------------------------------------------------------------MFALTAIKGVGRRYANICCRKADIDLKKRAGELTEEEVEKVVTILGNPRQYKIPDWFLNRQKDIKDGKYGQVMANSLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj5_aa2286      ----------------------------------------------------------------------------------------------MFALTAIKGVGRRYANICCRKADIDLKKRAGELTEEEVEKVVTILGNPRQYKIPDWFLNRQKDIKDGKYGQVMANSLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj10_aa22517    -------------------------------------------GISLPNALNGGQGKHDLAPIHQAGKMSLVIPEKFQHILRVLNTNIDGRRKIMFALTAIKGVGKRYANVCCRKADVDLAKRAGELTEEEVDKVITIIGNPRQYKIPDWFLNRQKDERDGKYSQVLANSLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj21_aa8462     ----------------------------------------------MP-----------MCAVHQAAKMSLVIPEKFQHILRVLNTNIDGRRKIMFALTAIKGVGKRYANVCCRKADIDLAKRAGELTEEEVEKVITIIGNPRQYKIPDWFLNRQKDERDGKYSQVLANSLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj22_aa917      --------------------------------------------MELWED-------YLSFSIHQRSKMSLVIPEKFQHILRVLNTNIDGRRKIMFALTAIKGVGKRYANVCCRKADIDLSKRAGELTEEEVEKVITIIGNPRQYKIPDWFLNRQKDERDGKYSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj2_aa19431     --------------------------------------------IGDLVLTRIADDGDHLFNVQRKFNMSLIFPEKFQHILRVLNTNIDGRRKIMYALTAIKGVGRRYAQVCCRKADIDLTKRAGELTEEEVEKVITIICNPRQYKIPDWFLNRQKDVRDGKYSQILSNALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj2_aa19435     MPQTAMGSDLLQALQILTEFIIQGIGQDLGVLAITHILLPVEEPIGDLVLTRIADDGDHLFNVQRKFNMSLIFPEKFQHILRVLNTNIDGRRKIMYALTAIKGVGRRYAQVCCRKADIDLTKRAGELTEEEVEKVITIICNPRQYKIPDWFLNRQKDVRDGKYSQILSNALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj2_aa19437     --------------------------------------------IGDLVLTRIADDGDHLFNVQRKFNMSLIFPEKFQHILRVLNTNIDGRRKIMYALTAIKGVGRRYAQVCCRKADIDLTKRAGELTEEEVEKVITIICNPRQYKIPDWFLNRQKDVRDGKYSQILSNALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj4_aa11512     ----------------------------------------------------------------------------------------------MFALTAIKGVGRRYAHVCCRKADIDLTKRAGELTEEEVEKVITIISNPRQYKIPDWFLNRQKDERDGKYSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj4_aa11513     ----------------------------------------------------------------------------------------------MFALTAIKGVGRRYAHVCCRKADIDLTKRAGELTEEEVEKVITIISNPRQYKIPDWFLNRQKDERDGKYSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj20_aa1457     --------------------------------------------KIMFALTAIKGVG------RRYANMTLVLPEKFQHILRVLNTNIDGRRKIMFALTAIKGVGRRYANVCCRKADIDLAKRAGELTEEEVEKVITIIGNPRQYKIPDWFLNRQKDERDGKYSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj7_aa28140     ---------------------------------------------DCLFLRR----HLMMRAKSSTSNMTLVIPEKFQHILRVLNTNIDGRRKIMFALTAIKGVGRRYANVCCRKADIDLSKRAGELTDEEVEKVITIIGNPRQYKIPDWFLNRQKDERDGKYSQVLANALDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	XP_794924.2     -------------------------------------------------------------------MPALVLPEKFQHILRVLNTNIDGRRKIMYALTAIKGVGRRYANICCRKADIDVSKRAGELTDDEVEKLMTILQNPRQYKIPDWFLNRQMDVKDGKYGQMMANNLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	XP_002734364.1  ------------------------------------MAEKSSALRQPINEELTDEIGEVVGKGYSFELWTLVIPEKFQHILRVMNTNIDGRRKIMFALTAIKGVGRRYSNVVCKKADVDLTKRA?KISAIQVEKLITIMSNPRQYKIPDWFLNRQKDVKDGKYSQVLANNLDNKLREDLERMKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj8_aa1169      ---------------------------------------------------------------LLHVWWCLCLPCD-NKCLRVLNTNIDGRCKIMYALTAIKGIGRRYASICCRKADIDTTKRAGELSDEEVDKLVTIMGNPRQYKIPDWFLNRQKDIKDGKFSQVMANLLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj8_aa1170      ----------------------------------------------------------------------------------------------MYALTAIKGIGRRYASICCRKADIDTTKRAGELSDEEVDKLVTIMGNPRQYKIPDWFLNRQKDIKDGKFSQVMANLLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj8_aa1171      ----------------------------------------------------------------------------------------------MYALTAIKGIGRRYASICCRKADIDTTKRAGELSDEEVDKLVTIMGNPRQYKIPDWFLNRQKDIKDGKFSQVMANLLDNKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj11_aa12629    --------------------------------------------------------------------MSLVIPEKFQHILRVLNTNIDGKCKIMYALTAIKGIGRRYSNICCRKADVDTSKRAGELSDEEVEKLITIMGNPRQYKIPDWFLNRQKDVKDGKFSQIIANGLENKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj11_aa7501     -------------------------------------------------------RPFGKTEQ---VNMSLVIPEKFQHILRVLNTNIDGKCKIMYALTAIKGIGRRYSNICCRKADVDTTKRAGELSDEEVEKLITIMGNPRQYKIPDWFLNRQKDVKDGKFSQIIANGLENKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGRTVGVSKKK
+	bj12_aa9534     --------------------------------------------------FQHILRVLNTNIDGKCKKMSLVIPEKFQHILRVLNTNIDGKCKIMYALTAIKGIGRRYSNICCRKADVDTTKRAGELSDEEVEKLITIMSNPRQYKIPDWFLNRQKDVKDGKFNQIIANGLENKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGQ--------
+	bj12_aa9538     --------------------------------------------------FQHILRVLNTNIDGKCKKMSLVIPEKFQHILRVLNTNIDGKCKIMYALTAIKGIGRRYSNICCRKADVDTTKRAGELSDEEVEKLITIMSNPRQYKIPDWFLNRQKDVKDGKFNQIIANGLENKLREDLERLKKIRAHRGLRHYWGLRVRGQHTKTTGRRGQ--------
+
+;
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  Taxonomy;
+	DIMENSIONS  NCHAR=1;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6";
+	CHARSTATELABELS 
+		1  /  Holothuroidea Asteroidea Echinoidea Ophiuroidea Crinoidea Cephalochordate Hemichordate Urochordate ; 
+	MATRIX
+	bj13_aa17985    4
+	bj13_aa17986    4
+	bj14_aa4636     4
+	bj1_aa1553      4
+	bj23_aa1934     4
+	bj5_aa2287      3
+	bj5_aa2288      3
+	bj5_aa2286      3
+	bj10_aa22517    1
+	bj21_aa8462     1
+	bj22_aa917      1
+	bj2_aa19431     1
+	bj2_aa19435     1
+	bj2_aa19437     1
+	bj4_aa11512     2
+	bj4_aa11513     2
+	bj20_aa1457     1
+	bj7_aa28140     1
+	XP_794924.2     2
+	XP_002734364.1  6
+	bj8_aa1169      0
+	bj8_aa1170      0
+	bj8_aa1171      0
+	bj11_aa12629    0
+	bj11_aa7501     0
+	bj12_aa9534     0
+	bj12_aa9538     0
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = Character_Matrix)  =  unord:  1 -  220;
+TYPESET * UNTITLED  (CHARACTERS = Taxonomy)  =  unord:  1;
+
+END;
+
+BEGIN TREES;
+	Title Imported_trees;
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 bj13_aa17985,
+		2 bj13_aa17986,
+		3 bj14_aa4636,
+		4 bj1_aa1553,
+		5 bj23_aa1934,
+		6 bj5_aa2287,
+		7 bj5_aa2288,
+		8 bj5_aa2286,
+		9 bj10_aa22517,
+		10 bj21_aa8462,
+		11 bj22_aa917,
+		12 bj2_aa19431,
+		13 bj2_aa19435,
+		14 bj2_aa19437,
+		15 bj4_aa11512,
+		16 bj4_aa11513,
+		17 bj20_aa1457,
+		18 bj7_aa28140,
+		19 XP_794924.2,
+		20 XP_002734364.1,
+		21 bj8_aa1169,
+		22 bj8_aa1170,
+		23 bj8_aa1171,
+		24 bj11_aa12629,
+		25 bj11_aa7501,
+		26 bj12_aa9534,
+		27 bj12_aa9538;
+	TREE Imported_tree_0 = (2:1.04733278176111E-6,((((24:1.04733278176111E-6,((26:1.04733278176111E-6,27:1.04733278176111E-6):0.47900773310769423,(((22:1.04733278176111E-6,21:1.04733278176111E-6):1.04733278176111E-6,23:1.04733278176111E-6):2.6249649422923746,25:1.04733278176111E-6):1.04733278176111E-6):0.06844007323967326):0.929461547234217,(20:1.849931048578144,((18:1.04733278176111E-6,(17:0.2167606535258364,(((16:1.04733278176111E-6,15:1.04733278176111E-6):1.04733278176111E-6,((12:1.04733278176111E-6,13:1.04733278176111E-6):1.04733278176111E-6,14:1.04733278176111E-6):0.4201291016065166):0.18844429396483894,(11:0.19997173372872046,(9:0.21664106961650173,10:1.04733278176111E-6):0.1203111623029703):0.16637599299465045):0.07446446384569928):0.33507675439380347):0.39683427674433897,(((8:1.04733278176111E-6,6:1.04733278176111E-6):1.04733278176111E-6,7:1.04733278176111E-6):0.5275785006128477,19:1.0615638036710349):0.526012471514093):0.17830217687377498):0.4632384866312843):0.5275368714940758,(4:1.04733278176111E-6,3:0.14404708327381047):0.06752082001108715):0.06213619437860412,5:0.26086689280201836):0.08392375895025136,1:1.04733278176111E-6):0.0;
+
+END;
+
+
+BEGIN CODONS;
+	CODESET * UNTITLED  (CHARACTERS = Character_Matrix)  =  universal:  1 -  220;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = Character_Matrix)  =  'Mk1 (est.)':  1 -  220;
+ProbModelSet * UNTITLED  (CHARACTERS = Taxonomy)  =  'Mk1 (est.)':  1;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1358961290681;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 980867944391190709;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 896250406617287731;
+			mqVersion 275;
+			checksumv 0 3 1428434536 null  getNumChars 220 numChars 220 getNumTaxa 27 numTaxa 27   short false   bits 1048575   states 1048575   sumSquaresStatesOnly 3.986231144858E13 sumSquares 3.986231144858E13 longCompressibleToShort false usingShortMatrix false   NumFiles 1 NumMatrices 2;
+			mqVersion;
+			setID 1 6760244090253801968;
+			mqVersion 275;
+			checksumv 1 3 3635322574 null  getNumChars 1 numChars 1 getNumTaxa 27 numTaxa 27   short true   bits 95   states 95   sumSquaresStatesOnly 5655.0 sumSquares 5655.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 2;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1440 759;
+			setLocation 0 22;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #980867944391190709  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 906.1358961254741.980830621537099477;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1340 692;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.ladderize;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+						endTell;
+						setEdgeWidth 6;
+						orientRight;
+						setCornerMode Right_Angle  50;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '(((((((((13:1.04733278176111E-6,12:1.04733278176111E-6):1.04733278176111E-6,14:1.04733278176111E-6):0.4201291016065166,(16:1.04733278176111E-6,15:1.04733278176111E-6):1.04733278176111E-6):0.18844429396483894,((10:1.04733278176111E-6,9:0.21664106961650173):0.1203111623029703,11:0.19997173372872046):0.16637599299465045):0.07446446384569928,17:0.2167606535258364):0.33507675439380347,18:1.04733278176111E-6):0.39683427674433897,(((8:1.04733278176111E-6,6:1.04733278176111E-6):1.04733278176111E-6,7:1.04733278176111E-6):0.5275785006128477,19:1.0615638036710349):0.526012471514093):0.17830217687377498,((((((22:1.04733278176111E-6,21:1.04733278176111E-6):1.04733278176111E-6,23:1.04733278176111E-6):2.6249649422923746,25:1.04733278176111E-6):1.04733278176111E-6,(27:1.04733278176111E-6,26:1.04733278176111E-6):0.47900773310769423):0.06844007323967326,24:1.04733278176111E-6):0.929461547234217,(((2:1.04733278176111E-6,1:1.04733278176111E-6):0.08392375895025136,5:0.26086689280201836):0.06213619437860412,(4:1.04733278176111E-6,3:0.14404708327381047):0.06752082001108715):0.5275368714940758):0.4632384866312843):0.924965524289072,20:0.924965524289072):0.0;';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setDataSet #6760244090253801968;
+							endTell;
+						endTell;
+						setMethod  #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates;
+						tell It;
+							setModelSource  #mesquite.parsimony.CurrentParsModels.CurrentParsModels;
+							toggleMPRsMode off;
+						endTell;
+					endTell;
+					setCharacter 1;
+					setMapping 1;
+					toggleShowLegend on;
+					toggleGray off;
+					toggleWeights on;
+					setInitialOffsetX 20;
+					setInitialOffsetY 4;
+					setLegendWidth 142;
+					setLegendHeight 225;
+					resume ;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #896250406617287731 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1340 692;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #6760244090253801968 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1340 692;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1340 692;
+						setLocation 0 22;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

@@ -1,0 +1,126 @@
+
+
+IMPORTANT WARNING: Sequences bj8_aa8812 and bj8_aa8813 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa3675 and bj11_aa3676 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa3675 and bj11_aa3678 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa3675 and bj11_aa3679 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa3675 and bj11_aa3680 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa3675 and bj11_aa3681 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14822 and bj20_aa14823 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj20_aa14822 and bj20_aa14824 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa7593 and bj11_aa7594 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa7593 and bj11_aa7592 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa7593 and bj11_aa7591 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa7593 and bj11_aa7590 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj11_aa7593 and bj11_aa7589 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2887 and bj14_aa2888 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2887 and bj14_aa2889 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj14_aa2887 and bj14_aa2890 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bj19_aa13125 and bj22_aa13360 are exactly identical
+
+IMPORTANT WARNING
+Found 17 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /Users/greglinchangco/Janies Lab/New/Working/NP_001229607/clustalw2output/15-ORTHOMCL477.faa.blastp.xml-NP_001229607.1.tabbed.phy.reduced
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 185 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 25.59%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 185
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Fixed Base Frequencies:
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s /Users/greglinchangco/Janies Lab/New/Working/NP_001229607/clustalw2output/15-ORTHOMCL477.faa.blastp.xml-NP_001229607.1.tabbed.phy -n 15-ORTHOMCL477.faa.blastp.xml-NP_001229607.1.tabbed.raxml.singleTree -c 4 -f d -m PROTGAMMAJTT 
+
+
+Testing which likelihood implementation to use
+Standard Implementation full tree traversal time: 0.237138
+Subtree Equality Vectors for gap columns full tree traversal time: 0.184808
+... using SEV-based implementation
+
+Inference[0]: Time 256.535737 GAMMA-based likelihood -2343.821875, best rearrangement setting 5
+alpha[0]: 0.261792 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2343.788564 tree written to file /Users/greglinchangco/Janies Lab/New/Working/NP_001229607/RAxML/RAxML_result.15-ORTHOMCL477.faa.blastp.xml-NP_001229607.1.tabbed.raxml.singleTree
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2343.788564 .... 
+
+Final GAMMA-based Score of best tree -2343.784708
+
+Program execution info written to /Users/greglinchangco/Janies Lab/New/Working/NP_001229607/RAxML/RAxML_info.15-ORTHOMCL477.faa.blastp.xml-NP_001229607.1.tabbed.raxml.singleTree
+Best-scoring ML tree written to: /Users/greglinchangco/Janies Lab/New/Working/NP_001229607/RAxML/RAxML_bestTree.15-ORTHOMCL477.faa.blastp.xml-NP_001229607.1.tabbed.raxml.singleTree
+
+Overall execution time: 350.958342 secs or 0.097488 hours or 0.004062 days
+
