@@ -1,38 +1,28 @@
-# Array::unique = ->
-#   output = {}
-#   output[@[key]] = @[key] for key in [0...@length]
-#   value for key, value of output
 
 class TreeChart
-  constructor: (file_path, width, height) ->
-    @json_file = file_path
-    @data = null
-    @width = width
-    @height = height
+  constructor: (data, file_name) ->
+    @json = file_name
+    @data = data
+    @width = 1280
+    @height = 500
     @fill_color = null
-    @names = []
     @name_dict = {}
-    @tags_dict = {}
     @tags = []
     
     treeParse = (root) =>
-      #console.log root
       if root instanceof Array
         for item in root
           treeParse item
       else if root
         if root.name != "" and root.name
-          #console.log root
-          #@names.push root.name
           @name_dict[root.name[0..3]] = 'named_node'
         if root.children
           treeParse root.children
     treeParse @data
-    console.log @name_dict
 
     colorNode = (d) =>
         if d.name and d.name != ""
-          d.color = @fill_color(d.name)
+          d.color = @fill_color(d.name[0..3])
         else if d._children
           for child in d._children
             colorNode child
@@ -146,8 +136,7 @@ class TreeChart
     )
     vis = d3.select("#vis").append("svg:svg").attr("width", w + m[1] + m[3]).attr("height", h + m[0] + m[2]).append("svg:g").attr("transform", "translate(" + m[3] + "," + m[0] + ")")
     
-    d3.json @json_file, (json) =>
-
+    d3.json @json, (json) =>
 
       toggleAll = (d) =>
         treeParse d
@@ -160,36 +149,31 @@ class TreeChart
 
       @fill_color = d3.scale.ordinal()
       .domain(@tags)
+      .range(colorbrewer.Set3[9])
 
-      .range(colorbrewer.Paired[9])
-      # @fill_color_cbs = d3.scale.ordinal() #cbs = Color-blind safe
-      # .domain(@names)
-      # .range(colorbrewer.BuGn[9])
+      @fill_color_cbs = d3.scale.ordinal() #cbs = Color-blind safe
+      .domain(@tags)
+      .range(colorbrewer.BuGn[9])
 
-      root = json
+      root = @data
       root.x0 = h / 2
       root.y0 = 0
       root.children.forEach toggleAll
       update root
 
-    # setColor = (d) ->
-    #   @fill_color = d3.scale.ordinal()
-    #   .domain(@tags)
-    #   .range(colorbrewer.Paired[9])
+root = exports ? this
 
-      # for key, value of @name_dict
-      #   tag = key[0..3] #The bj number, i.e. the first 4 characters of the node name
-      #   @tags.push tag
-
-      #@names = @names.unique()
-
+#Export our stuff and get the javascript compiling...
 root = exports ? this
 $ ->
   #Make our charts from data (json file)
   tree_chart = null
-  render_tree = (json, width, height) ->
-    tree_chart = new TreeChart json, width, height
+  render_tree = (json) ->
+    file_name = "data/best_tree.json"
+    tree_chart = new TreeChart json, file_name
 
-  render_tree "data/best_tree.json", 1280, 500
+  #Handle the views...
 
-  
+  # Render our visualization charts
+  d3.json "data/best_tree.json", render_tree
+
